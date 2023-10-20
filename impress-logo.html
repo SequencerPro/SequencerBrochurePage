@@ -1,0 +1,489 @@
+<!doctype html>
+
+
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>SequencerPro Logo</title>
+
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- Jquery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css">
+
+
+    <link
+        href="//fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic"
+        rel="stylesheet" />
+
+    <!-- Custom CSS styles. -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fullpage.css">
+
+    <!-- Custom JS. -->
+    <script src="js/impress-logo-script.js"></script>
+    <script src="js/fullpage.js"></script>
+
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link href="css/impress-common.css" rel="stylesheet" />
+
+    <!-- <link rel="shortcut icon" href="favicon.ico" /> -->
+    <link rel="shortcut icon" href="data:,">
+    <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png" /> -->
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Coda" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Kelly+Slab" />
+</head>
+
+
+<body class="impress-not-supported" style="background: transparent; height: 100%; overflow: hidden;">
+    <!-- <body class="impress-not-supported"> -->
+
+    <!-- <header class="masthead" id="testTest" onclick=""></header> -->
+
+    <!--
+    This fallback message is only visible when there is `impress-not-supported` class on body.
+    -->
+    <div class="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a
+            simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+    </div>
+
+    <!-- Text next to logo. -->
+    <div id="title-cont" class="container mt-5">
+        <div class="row">
+            <div class="col-auto mt-md-5 mt-sm-0 ms-5">
+                <p class="h1" style="color: var(--sequencer-gold); font-family: Coda;">Easy Process Design.</p>
+                <p class="h1" style="color: var(--sequencer-gold); font-family: Coda;">Easy Process Control.</p>
+                <p class="h1" style="color: var(--sequencer-gold); font-family: Coda;">Get Started Today!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- The impresss stuff. -->
+    <div id="impress" data-transition-duration="800" data-width="1920" data-height="1080" data-max-scale="3"
+        data-min-scale="0.21" data-perspective="1000">
+
+        <!-- The overview allows us to see the whole logo. -->
+        <div id="overview" class="step" data-x="2200" data-y="2000" data-scale="6.5">
+        </div>
+
+        <!-- The Yellow Circle -->
+        <div class="step circle-yellow step-fade" id="yellowCircle" data-x="-2200" data-y="4100" data-scale="2.2">
+            <div class="container h-100 w-100 position-relative">
+                <div class="row h-100 position-absolute" id="zoomedOutTextYellow">
+                    <div class="col text-center">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" fill="currentColor"
+                            class="bi bi-lightbulb" viewBox="0 0 16 16" style="color: black;">
+                            <path
+                                d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z" />
+                        </svg> -->
+                        <img src="img/Icons For Brochure Page/noun_Idea_1102323_trim.png" alt="" width="400px">
+                        <p class="text-center fw-bold mt-n1" style="font-family: 'Coda'; color: black; font-size: 90px;">Turn
+                            your ideas into
+                            Sequences</p>
+                    </div>
+                </div>
+
+                <div class="row h-100 w-100 hidden position-absolute" id="zoomedInTextYellow">
+                    <div class="col my-auto text-center">
+                        <div class="row">
+                            <div class="col my-auto">
+                                <p class="text-center fw-bold"
+                                    style="font-family: 'Coda'; color: black; font-size: 35px;">Standardize your
+                                    processes</p>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4">
+                            <div class="col-10 my-auto mx-auto">
+                                <div class="card bg-transparent border-dark border-5">
+                                    <p class="text-center fw-bold p-4"
+                                        style="font-family: 'Coda'; color: black; font-size: 45px;">Ideas</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor"
+                                    class="bi bi-arrow-down" viewBox="0 0 16 16" style="color: black;">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-4 my-auto">
+                                <p class="text-center fw-bold"
+                                    style="font-family: 'Coda'; color: black; font-size: 35px;">Capture your learning
+                                </p>
+                            </div>
+
+                            <div class="col my-auto p-0">
+                                <div class="card bg-transparent border-dark border-5 p-4">
+                                    <p class="text-center fw-bold"
+                                        style="font-family: 'Coda'; color: black; font-size: 33px;">Broken into steps
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-4 my-auto">
+                                <p class="text-center fw-bold"
+                                    style="font-family: 'Coda'; color: black; font-size: 35px;">Reduce wasted time</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor"
+                                    class="bi bi-arrow-down" viewBox="0 0 16 16" style="color: black;">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-10 my-auto mx-auto">
+                                <div class="card bg-transparent border-dark border-5">
+                                    <p class="text-center fw-bold p-4"
+                                        style="font-family: 'Coda'; color: black; font-size: 35px;">Standardized into
+                                        Sequences</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col my-auto mt-2 mb-2">
+                                <p class="text-center fw-bold"
+                                    style="font-family: 'Coda'; color: black; font-size: 35px;">Make your processes
+                                    repeatable</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Cyan Circle -->
+        <div class="step circle-cyan step-fade" id="cyanCircle" data-x="400" data-y="2350" data-scale="2.2">
+            <div class="container h-100 w-100 position-relative">
+                <div class="row h-100 position-absolute" id="zoomedOutTextCyan">
+                    <div class="col my-auto text-center">
+                        <p class="text-center fw-bold" style="font-family: 'Coda'; color: black; font-size: 80px;">Publish work instructions to your factory floor</p>
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" fill="currentColor" class="bi bi-question-diamond" viewBox="0 0 16 16">
+                            <path d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134z"/>
+                            <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                          </svg> -->
+                          <img src="img/Icons For Brochure Page/noun_Worker_1341133_trim.png" alt="" width="300px">
+                    </div>
+                </div>
+
+                <div class="row h-100 hidden position-absolute" id="zoomedInTextCyan">
+                    <div class="col-10 mx-auto my-auto text-center">
+                        <div class="row justify-content-center">
+
+                            <div class="col-auto ms-3">
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-question-diamond" viewBox="0 0 16 16">
+                                    <path d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134z"/>
+                                    <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                                  </svg> -->
+                                  <img src="img/Icons For Brochure Page/Time Icon.png" alt="" width="180px">
+                            </div>
+
+                            <div class="col my-auto">
+                                <p class="text-start fw-bold"
+                                    style="font-family: 'Coda'; color: black; font-size: 40px;">Keep everyone 
+                                    up to date
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col my-auto">
+                                <p class="text-end fw-bold"
+                                    style="font-family: 'Coda'; color: black; font-size: 40px;">Publish work instructions directly to the floor
+                                </p>
+                            </div>
+
+                            <div class="col-auto">
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-question-diamond" viewBox="0 0 16 16">
+                                    <path d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134z"/>
+                                    <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                                  </svg> -->
+                                  <img src="img/Icons For Brochure Page/Multiple Icons worker trim.png" alt="" width="200px">
+                            </div>
+                        </div>
+
+                        <div class="row mt-4 justify-content-center">
+                            <div class="col-auto me-4">
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-question-diamond" viewBox="0 0 16 16">
+                                    <path d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134z"/>
+                                    <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                                  </svg> -->
+                                  <img src="img/Icons For Brochure Page/Rev Control.png" alt="" width="200px">
+                            </div>
+
+                            <div class="col my-auto">
+                                <p class="text-start fw-bold"
+                                    style="font-family: 'Coda'; color: black; font-size: 40px;">Built-in revision control 
+                                    and timeline of changes
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Blue Circle -->
+        <div class="step circle-blue step-fade" id="blueCircle" data-x="3525" data-y="3200" data-scale="2.7">
+            <div class="container h-100 w-100 position-relative">
+                <div class="row h-100 position-absolute" id="zoomedOutTextBlue">
+                    <div class="col my-auto text-center">
+                        <p class="text-center fw-bold" style="font-family: 'Coda'; color: black; font-size: 100px;">
+                            Real-time customizable dashboards</p>
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="250" height="250" fill="currentColor"
+                            class="bi bi-graph-up" viewBox="0 0 16 16" style="color: black;">
+                            <path fill-rule="evenodd"
+                                d="M0 0h1v15h15v1H0V0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5z" />
+                        </svg> -->
+                        <img src="img/Icons For Brochure Page/GraphAndArrowBlack_trim.png" alt="" width="300px">
+                    </div>
+                </div>
+
+                <div class="row h-100 w-100 hidden position-absolute" id="zoomedInTextBlue">
+                    <div class="col-11 my-auto text-center">
+                        <div class="row">
+                            <div class="col my-auto">
+                                <p class="text-end fw-bold"
+                                    style="font-family: 'Coda'; color: black; font-size: 40px;">Data at your fingertips
+                                </p>
+                            </div>
+
+                            <div class="col-auto">
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor"
+                                    class="bi bi-clipboard-data" viewBox="0 0 16 16" style="color: black;">
+                                    <path
+                                        d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V7zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0V9z" />
+                                    <path
+                                        d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                                    <path
+                                        d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                                </svg> -->
+                                <img src="img/Icons For Brochure Page/noun_Mobile_3435893_trim.png" alt="" width="200px">
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col-auto ms-5">
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor"
+                                    class="bi bi-phone" viewBox="0 0 16 16" style="color: black;">
+                                    <path
+                                        d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                                    <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                                </svg> -->
+                                <img src="img/Icons For Brochure Page/noun_Tablet_2570958_trim.png" alt="" width="150px" style="transform: rotate(170deg);">
+                            </div>
+
+                            <div class="col my-auto">
+                                <p class="text-start fw-bold"
+                                    style="font-family: 'Coda'; color: black; font-size: 40px;">Real-time information
+                                    accessible wherever you are
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col my-auto">
+                                <p class="text-end fw-bold"
+                                    style="font-family: 'Coda'; color: black; font-size: 40px;">Fully customizable
+                                    reports
+                                </p>
+                            </div>
+
+                            <div class="col-auto me-4">
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor"
+                                    class="bi bi-newspaper" viewBox="0 0 16 16" style="color: black;">
+                                    <path
+                                        d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z" />
+                                    <path
+                                        d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
+                                </svg> -->
+                                <img src="img/Icons For Brochure Page/noun_clipboard_3472993_trim.png" alt="" width="200px" style="transform: rotate(10deg);">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Orange Circle -->
+        <div class="step circle-orange step-fade" id="orangeCirlce" data-x="5800" data-y="500" data-scale="3.6">
+            <div class="container h-100 w-100 position-relative">
+                <div class="row h-100 position-absolute" id="zoomedOutTextOrange">
+                    <div class="col my-auto text-center">
+                        <p class="text-center fw-bold" style="font-family: 'Coda'; color: black; font-size: 90px;">Real-time <br> quality assurance</p>
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="250" height="250" fill="currentColor"
+                            class="bi bi-graph-up" viewBox="0 0 16 16" style="color: black;">
+                            <path fill-rule="evenodd"
+                                d="M0 0h1v15h15v1H0V0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5z" />
+                        </svg> -->
+                        <img src="img/Icons For Brochure Page/noun_rapid testing_2755487_trim.png" alt="" width="400px">
+                    </div>
+                </div>
+
+                <div class="row h-100 w-100 hidden position-absolute" id="zoomedInTextOrange">
+                    <div class="col my-auto">
+                        <div class="row justify-content-center">
+                            <div class="col-6 my-auto">
+                                <p class="text-center fw-bold"
+                                    style="font-family: 'Coda'; color: black; font-size: 40px;">Demonstrate process heritage
+                                </p>
+                            </div>
+
+                            <div class="col-5">
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor"
+                                    class="bi bi-clipboard-data" viewBox="0 0 16 16" style="color: black;">
+                                    <path
+                                        d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V7zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0V9z" />
+                                    <path
+                                        d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                                    <path
+                                        d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                                </svg> -->
+                                <img src="img/Icons For Brochure Page/noun_pedigree_372618_trim.png" alt="" width="200px">
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col-auto ms-5">
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor"
+                                    class="bi bi-phone" viewBox="0 0 16 16" style="color: black;">
+                                    <path
+                                        d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                                    <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                                </svg> -->
+                                <img src="img/Icons For Brochure Page/noun_quality assurance_3634516.png" alt="" width="300px">
+                            </div>
+
+                            <div class="col my-auto me-5">
+                                <p class="text-center fw-bold"
+                                    style="font-family: 'Coda'; color: black; font-size: 40px;">Control processes, not just documents
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col-10 my-auto">
+                                <p class="text-center fw-bold"
+                                    style="font-family: 'Coda'; color: black; font-size: 40px;">Straightforward regulatory compliance & monitoring
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- These SVG lines are the default. -->
+        <div class="" id="logoLines">
+            <svg class="" width="15000" height="10000"
+                style="position: absolute; left: -5500; top: -3000; pointer-events: none;">
+                <line x1="4100" y1="6600" x2="5100" y2="5900" style="stroke:var(--sequencer-white);stroke-width:200" />
+                <line x1="6850" y1="5600" x2="7900" y2="5900" style="stroke:var(--sequencer-white);stroke-width:200" />
+                <line x1="9800" y1="5300" x2="10300" y2="4750" style="stroke:var(--sequencer-white);stroke-width:200" />
+            </svg>
+        </div>
+
+        <!-- This image is for iOS as SVG's cause the website to crash. -->
+        <!-- <div class="d-none" id="logoPng">
+            <img src="img/SeqProTFullyTrans.png" alt="" width="10600" style="position: absolute; left: -3200px; top: -1100px; pointer-events: none;">
+        </div> -->
+
+    </div>
+
+    <!-- This allows us to have the toolbar  -->
+    <div class="h-100 w-100" id="impress-toolbar" style="z-index: -1;"></div>
+
+
+    <div class="hint">
+        <p>Use a spacebar or arrow keys to navigate.</p>
+    </div>
+    <!-- <script>
+        if ("ontouchstart" in document.documentElement) {
+            document.querySelector(".hint").innerHTML = "<p>Swipe left or right to navigate</p>";
+        }
+    </script> -->
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="vendor/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // This script will change the size of the impress for mobile before impress is initiallized.
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+
+            // console.log("Device in mobile");
+            // If impress is there, change it to mobile view.
+            if (document.getElementById('impress') != null) {
+                // Flips the resolution for vertical screens. 
+                document.getElementById('impress').setAttribute("data-width", 1080);
+                document.getElementById('impress').setAttribute("data-height", 1920);
+
+                document.getElementById('overview').setAttribute("data-scale", 11);
+            }
+        }
+    </script>
+
+    <!-- This is where impress is initialized. -->
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+
+    <script>
+        // This is hardcoded, should probably change this later.
+        // This applys the glowing affect to the first logo bubble.
+        setTimeout(() => applyShadow(), 1000);
+        setTimeout(() => removeShadow(), 2000);
+        setTimeout(() => applyShadow(), 3000);
+        setTimeout(() => removeShadow(), 4000);
+
+        // Applies shadow to the first node on the logo to show it is clickable.
+        function applyShadow() {
+            var yellowCircle = document.getElementById('yellowCircle');
+
+            yellowCircle.style.transition = "all 1.5s"
+            yellowCircle.style.boxShadow = ' 0 0 150px white, inset 0 0 250px yellow';
+
+        }
+
+        // Removes shadow from first node of logo.
+        function removeShadow() {
+            var yellowCircle = document.getElementById('yellowCircle');
+
+            yellowCircle.style.transition = "all 1.5s"
+            yellowCircle.style.boxShadow = 'none';
+        } 
+    </script>
+
+</body>
+
+</html>

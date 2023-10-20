@@ -1,0 +1,830 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Jquery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="vendor/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css">
+
+
+    <!-- Custom CSS files. -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+
+    <!-- Custom JS. -->
+    <script type="text/javascript" src="js/fullpage.js"></script>
+    <script type="text/javascript" src="js/index-script.js"></script>
+
+    <link rel="shortcut icon" href="img/SQ _Logo_Transparent_BG.png" />
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Coda" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Kelly+Slab" />
+
+    <title>SequencerPro</title>
+</head>
+
+<body class="" style="padding-top: 5rem;">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand coda-font" href="#" style="color: var(--sequencer-gold); font-size: 30px;">
+
+                S <span class="kelly-slab-font" style="font-size: 33px;">e</span>qu <span class="kelly-slab-font"
+                    style="font-size: 40px;">e</span>nc <span class="kelly-slab-font"
+                    style="font-size: 33px;">e</span>rPro
+                <img src="img/SQ _Logo_Yellow_Transparent_BG.png" alt="" height="35px" class="d-inline-block mb-3">
+            </a>
+            <!-- Original navbar brand. -->
+            <!-- <a class="navbar-brand" href="#">
+                <h1 style="font-size: 50px;"> <span class='coda-font'
+                        style="color: var(--sequencer-gold); vertical-align: 4px;">S</span>
+                    <span class='kelly-slab-font'
+                        style="color: var(--sequencer-gold); vertical-align: 4px; margin-left: -15px; font-size: 45px;">e</span>
+                    <span class='coda-font'
+                        style="color: var(--sequencer-gold); vertical-align: 4px; margin-left: -15px;">q</span>
+                    <span class='coda-font'
+                        style="color: var(--sequencer-gold); vertical-align: 4px; margin-left: -15px;">u</span>
+                    <span class='kelly-slab-font'
+                        style="color: var(--sequencer-gold); vertical-align: 4px; font-size: 50px; margin-left: -15px;">e</span>
+                    <span class='coda-font'
+                        style="color: var(--sequencer-gold); vertical-align: 4px; margin-left: -15px;">n</span>
+                    <span class='coda-font'
+                        style="color: var(--sequencer-gold); vertical-align: 4px; margin-left: -15px;">c</span>
+                    <span class='kelly-slab-font'
+                        style="color: var(--sequencer-gold); vertical-align: 4px; margin-left: -15px; font-size: 45px;">e</span>
+                    <span class='coda-font'
+                        style="color: var(--sequencer-gold); vertical-align: 4px; margin-left: -15px;">r</span>
+
+                    <span class='coda-font'
+                        style="color: var(--sequencer-gold); vertical-align: 4px; margin-left: -15px;">P</span>
+                    <span class='coda-font'
+                        style="color: var(--sequencer-gold); vertical-align: 4px; margin-left: -15px;">r</span>
+                    <span class='coda-font'
+                        style="color: var(--sequencer-gold); vertical-align: 4px; margin-left: -15px;">o</span>
+                </h1>
+                <img class="" src="img/SQ _Logo_Yellow_Transparent_BG.png" height="45px" alt="">
+            </a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link h5" style="color: var(--sequencer-white);" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link h5" style="color: var(--sequencer-white);" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link h5" style="color: var(--sequencer-white);" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary-navbar" onclick="location.href = 'https://app.sequencerpro.com';">Try it out!</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <line x1="-1500" y1="3600" x2="-500" y2="2900" style="stroke:var(--sequencer-white);stroke-width:200" /> -->
+    <header class="masthead"></header>
+
+    <!-- Section for iOS -->
+    <section class="d-lg-none d-xl-none d-xxl-none" id="iosSection">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center mb-5">
+                    <img src="img/SQ _Logo_Transparent_BG.png" alt="" style="width: 80%;">
+                </div>
+            </div>
+
+            <!-- Yellow Card -->
+            <div class="row mt-4">
+                <div class="col">
+                    <div class="card" style="background-color: var(--sequencer-gold);">
+                        <div class="card-header text-center" data-bs-toggle="collapse" href="#cardCollapse1"
+                            role="button" aria-expanded="false" aria-controls="cardCollapse1">
+                            <div class="row">
+                                <div class="col my-2">
+                                    <img src="img/Icons For Brochure Page/noun_Idea_1102323_trim.png" alt=""
+                                        width="100px">
+                                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                                        class="bi bi-lightbulb-fill" viewBox="0 0 16 16" style="color: var(--sequencer-gold);">
+                                        <path
+                                            d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5z" />
+                                    </svg> -->
+                                </div>
+                            </div>
+                            <div class="h1 fw-bold" style="font-family: Coda; color: black">Turn
+                                your ideas into
+                                Sequences</div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-caret-down" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659l4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-center collapse" id="cardCollapse1"
+                            style="background-color: var(--sequencer-charcoal);">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="h3" style="color: white;">Standardize your
+                                        processes</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-auto mx-auto">
+                                    <div class="card shadow" style="background-color: var(--sequencer-cyan);">
+                                        <div class="card-body">
+                                            <p class="h4 my-auto" style="color: black;">Ideas</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-5 my-auto">
+                                    <p class="h5" style="color: white;">Capture your learning</p>
+                                </div>
+
+                                <div class="col-auto my-auto">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                        class="bi bi-arrow-down" viewBox="0 0 16 16" style="color: black;">
+                                        <path fill-rule="evenodd"
+                                            d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                                    </svg>
+                                </div>
+
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-auto mx-auto">
+                                    <div class="card shadow" style="background-color: var(--sequencer-blue);">
+                                        <div class="card-body">
+                                            <p class="h4 my-auto" style="color: black;">Broken into steps</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-end">
+                                <div class="col-auto my-auto">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                        class="bi bi-arrow-down" viewBox="0 0 16 16" style="color: black;">
+                                        <path fill-rule="evenodd"
+                                            d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                                    </svg>
+                                </div>
+
+                                <div class="col-5 my-auto">
+                                    <p class="h5" style="color: white;">Reduce waste time</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-auto mx-auto">
+                                    <div class="card shadow" style="background-color: var(--sequencer-orange);">
+                                        <div class="card-body">
+                                            <p class="h4 my-auto" style="color: black;">Standardized into Sequences</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col">
+                                    <p class="h5" style="color: white;">Make your processes repeatable</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                        class="bi bi-arrow-down" viewBox="0 0 16 16" style="color: black;">
+                                        <path fill-rule="evenodd"
+                                            d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor"
+                                        class="bi bi-cash" viewBox="0 0 16 16" style="color: rgb(14, 165, 14);">
+                                        <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+                                        <path
+                                            d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2H3z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cyan Card -->
+            <div class="row mt-4">
+                <div class="col">
+                    <div class="card" style="background-color: var(--sequencer-cyan);">
+                        <div class="card-header text-center" data-bs-toggle="collapse" href="#cardCollapse2"
+                            role="button" aria-expanded="false" aria-controls="cardCollapse2">
+
+
+
+                            <div class="h1 fw-bold mt-4" style="font-family: Coda; color: black">Publish work
+                                instructions to
+                                your factory floor</div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
+                                            class="bi bi-question-diamond" viewBox="0 0 16 16">
+                                            <path
+                                                d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134z" />
+                                            <path
+                                                d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z" />
+                                        </svg> -->
+                                    <img src="img/Icons For Brochure Page/noun_Worker_1341133_trim.png" alt=""
+                                        width="100px">
+
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-caret-down" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659l4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-center collapse" id="cardCollapse2"
+                            style="background-color: var(--sequencer-charcoal);">
+
+                            <div class="row justify-content-center mb-4">
+                                <div class="col">
+                                    <div class="card shadow" style="background-color: var(--sequencer-blue);">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
+                                                        class="bi bi-question-diamond" viewBox="0 0 16 16"
+                                                        style="color: var(--sequencer-gold);">
+                                                        <path
+                                                            d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134z" />
+                                                        <path
+                                                            d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z" />
+                                                    </svg> -->
+                                                    <img src="img/Icons For Brochure Page/Time Icon.png" alt=""
+                                                        width="100px">
+                                                </div>
+                                                <div class="col my-auto">
+                                                    <p class="h3 text-start" style="color: white;">Keep everyone
+                                                        up to date
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-center mb-4">
+                                <div class="col">
+                                    <div class="card shadow" style="background-color: var(--sequencer-orange);">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col my-auto">
+                                                    <p class="h3 text-end" style="color: white;">Publish work
+                                                        instructions directly to the floor
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
+                                                        class="bi bi-question-diamond" viewBox="0 0 16 16"
+                                                        style="color: var(--sequencer-gold);">
+                                                        <path
+                                                            d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134z" />
+                                                        <path
+                                                            d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z" />
+                                                    </svg> -->
+                                                    <img src="img/Icons For Brochure Page/Multiple Icons worker trim.png"
+                                                        alt="" width="100px">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-center">
+                                <div class="col">
+                                    <div class="card shadow" style="background-color: var(--sequencer-gold);">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
+                                                        class="bi bi-question-diamond" viewBox="0 0 16 16"
+                                                        style="color: var(--sequencer-gold);">
+                                                        <path
+                                                            d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134z" />
+                                                        <path
+                                                            d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z" />
+                                                    </svg> -->
+                                                    <img src="img/Icons For Brochure Page/Rev Control.png" alt=""
+                                                        width="100px">
+                                                </div>
+                                                <div class="col my-auto">
+                                                    <p class="h3 text-start" style="color: white;">Built-in revision
+                                                        control
+                                                        and timeline of changes
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blue Card -->
+            <div class="row mt-4">
+                <div class="col">
+                    <div class="card" style="background-color: var(--sequencer-blue);">
+                        <div class="card-header text-center" data-bs-toggle="collapse" href="#cardCollapse3"
+                            role="button" aria-expanded="false" aria-controls="cardCollapse3">
+                            <div class="h1 fw-bold mt-4" style="font-family: Coda; color: black">Real-time customizable
+                                dashboards
+                            </div>
+                            <div class="row">
+                                <div class="col my-2">
+                                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                                        class="bi bi-graph-up" viewBox="0 0 16 16"
+                                        style="color: var(--sequencer-white);">
+                                        <path fill-rule="evenodd"
+                                            d="M0 0h1v15h15v1H0V0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5z" />
+                                    </svg> -->
+                                    <img src="img/Icons For Brochure Page/GraphAndArrowBlack_trim.png" alt=""
+                                        width="100px">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-caret-down" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659l4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-center collapse" id="cardCollapse3"
+                            style="background-color: var(--sequencer-charcoal);">
+                            <div class="row mb-4">
+                                <div class="col-auto mx-auto">
+                                    <div class="card shadow" style="background-color: var(--sequencer-orange);">
+                                        <div class="card-body">
+                                            <div class="row justify-content-center">
+                                                <div class="col-6 my-auto">
+                                                    <p class="h3 text-end" style="color: white;">Data at your fingertips
+                                                    </p>
+                                                </div>
+
+                                                <div class="col-auto my-auto">
+                                                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70"
+                                                        fill="currentColor" class="bi bi-clipboard-data"
+                                                        viewBox="0 0 16 16" style="color: black">
+                                                        <path
+                                                            d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V7zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0V9z" />
+                                                        <path
+                                                            d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                                                        <path
+                                                            d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                                                    </svg> -->
+                                                    <img src="img/Icons For Brochure Page/noun_Mobile_3435893_trim.png"
+                                                        alt="" width="100px">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-auto mx-auto">
+                                    <div class="card shadow" style="background-color: var(--sequencer-gold);">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-auto my-auto ms-2">
+                                                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70"
+                                                        fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16"
+                                                        style="color: black;">
+                                                        <path
+                                                            d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                                                        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                                                    </svg> -->
+                                                    <img src="img/Icons For Brochure Page/noun_Tablet_2570958_trim.png"
+                                                        alt="" width="60px" style="transform: rotate(170deg);">
+                                                </div>
+                                                <div class="col my-auto">
+                                                    <p class="h3 text-start" style="color: white;">Real-time information
+                                                        accessible
+                                                        wherever you are</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-auto mx-auto">
+                                    <div class="card shadow" style="background-color: var(--sequencer-cyan);">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col my-auto">
+                                                    <p class="h3 text-end" style="color: white;">Fully customizable
+                                                        reports</p>
+                                                </div>
+
+                                                <div class="col-auto my-auto me-2">
+                                                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70"
+                                                        fill="currentColor" class="bi bi-newspaper" viewBox="0 0 16 16"
+                                                        style="color: black;">
+                                                        <path
+                                                            d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z" />
+                                                        <path
+                                                            d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
+                                                    </svg> -->
+                                                    <img src="img/Icons For Brochure Page/noun_clipboard_3472993_trim.png"
+                                                        alt="" width="80px" style="transform: rotate(10deg);">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Orange Card -->
+            <div class="row mt-4">
+                <div class="col">
+                    <div class="card" style="background-color: var(--sequencer-orange);">
+                        <div class="card-header text-center" data-bs-toggle="collapse" href="#cardCollapse4"
+                            role="button" aria-expanded="false" aria-controls="cardCollapse4">
+                            <div class="h1 fw-bold mt-4" style="font-family: Coda; color: black">Real-Time quality
+                                assurance
+                            </div>
+                            <div class="row">
+                                <div class="col my-2">
+                                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                                        class="bi bi-graph-up" viewBox="0 0 16 16"
+                                        style="color: var(--sequencer-white);">
+                                        <path fill-rule="evenodd"
+                                            d="M0 0h1v15h15v1H0V0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5z" />
+                                    </svg> -->
+                                    <img src="img/Icons For Brochure Page/noun_rapid testing_2755487_trim.png" alt=""
+                                        width="100px">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-caret-down" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659l4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-center collapse" id="cardCollapse4"
+                            style="background-color: var(--sequencer-charcoal);">
+
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="card shadow" style="background-color: var(--sequencer-gold);">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col my-auto">
+                                                    <p class="h3 text-center" style="color: white;">Demonstrate process
+                                                        heritage</p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <img src="img/Icons For Brochure Page/noun_pedigree_372618_trim.png"
+                                                        alt="" width="100px">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="card shadow" style="background-color: var(--sequencer-cyan);">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <img src="img/Icons For Brochure Page/noun_quality assurance_3634516.png" alt="" width="100px">
+                                                </div>
+                                                <div class="col my-auto">
+                                                    <p class="h3 text-center" style="color: white;">Control processes, not just documents</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="card shadow" style="background-color: var(--sequencer-blue);">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col my-auto">
+                                                    <p class="h3 text-center" style="color: white;">Straightforward tegulatory compliance & monitoring</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- END section for iOS. -->
+
+    <!-- iframe for impress. -->
+    <section id="impressIFrame" class="h-100 w-100 p-0 d-none d-sm-none d-md-none d-lg-block">
+        <iframe src="impress-logo.html" width="100%" height="100%" frameborder="0">
+        </iframe>
+    </section>
+
+
+
+    <!-- Second Section-->
+    <section class="page-section " id="about" style="background-color: var(--sequencer-gold);">
+        <div class="container">
+            <div class="text-center">
+                <div class="coda-font" style="color: var(--sequencer-white); font-size: 50px;">
+                    <span style="margin-right: 5px;">S</span><span class="kelly-slab-font" style="font-size: 53px;">e</span>q<span style="margin-right: 5px;">u</span><span class="kelly-slab-font"
+                        style="font-size: 60px;">e</span>n<span style="margin-right: 5px;">c</span><span class="kelly-slab-font"
+                        style="font-size: 53px;">e</span>rPro
+                </div>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+            <div>
+
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <!-- <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-pen fa-stack-1x fa-inverse"></i>
+                    </span> -->
+                    <img class="m-4" src="img/Icons For Brochure Page/noun_graph chart screen_3207966_trim.png" alt="" width="100px">
+                    <!-- <h4 class="my-3 " style="color: white;">Easy to Use</h4> -->
+                    <p class="h2 fw-bold" style="color: black;">Understand Your
+                        Process Variables
+                        Better Than Ever
+                    </p>
+                    <p class="h3" style="color: black;">With SequencerPro’s easy-to-use dashboards,
+                        give the power of data visualization to broader teams
+                        to better understand process input relationships.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <!-- <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span> -->
+                    <img class="m-4" src="img/Icons For Brochure Page/noun_Server_3684451_trim.png" alt="" width="100px">
+                    <!-- <h4 class="my-3" style="color: white;">Responsive Design</h4> -->
+                    <p class="h2 fw-bold" style="color: black;">Automatic Change Control
+                    </p>
+                    <p class="h3" style="color: black;">By providing a single platform to create processes, track and store data,
+                        and
+                        publish work instructions, SequencerPro gives you the ability to effortlessly develop timelines
+                        of changes to better understand your process.</p>
+                </div>
+                <div class="col-md-4">
+                    <!-- <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                    </span> -->
+                    <img class="m-4" src="img/Icons For Brochure Page/noun_Document_2684625_trim.png" alt="" width="90px">
+                    <!-- <h4 class="my-3" style="color: white;">Secure</h4> -->
+                    <p class="h2 fw-bold" style="color: black;">Customized to
+                        Fit Your Needs
+
+                    </p>
+                    <p class="h3" style="color: black;">SequencerPro not only allows for the creation of processes from the ground
+                        up, but also has personalized logins to display the information you value most.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+
+
+            <div class="row">
+                <div class="col">
+                    <div class="section-heading text-center my-auto" style="margin-bottom: -10px;">
+                        <h2 class="" style="color: var(--sequencer-gold); font-family: Coda;">The features you need, at a price that’s right for you.</h2>
+                        <!-- <p class="" style="color: var(--sequencer-gold);">Look at this!</p> -->
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row justify-content-center">
+                <div class="col-auto mt-4">
+                    <div class="card shadow" style="background-color: var(--sequencer-slate);">
+                        <div class="card-body">
+                            <div class="col feature-item mt-4">
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor"
+                                    class="bi bi-hdd-network" viewBox="0 0 16 16" style="color: white;">
+                                    <path d="M4.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zM3 4.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+                                    <path
+                                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H8.5v3a1.5 1.5 0 0 1 1.5 1.5h5.5a.5.5 0 0 1 0 1H10A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5H.5a.5.5 0 0 1 0-1H6A1.5 1.5 0 0 1 7.5 10V7H2a2 2 0 0 1-2-2V4zm1 0v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1zm6 7.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5z" />
+                                </svg> -->
+                                <img src="img/Icons For Brochure Page/noun_manage data_2614322_trim.png" alt="" width="125px">
+                                <h3 class="fw-bold" style="color: var(--sequencer-blue); font-family: Calibri, sans-serif;">Manage Processes</h3>
+                                <p class="" style="color: var(--sequencer-white); font-family: Calibri, sans-serif;">SequencerPro helps you manage processes during
+                                    every step, from publishing ideas to collecting data from the manufacturing floor.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-auto mx-4">
+
+                </div>
+
+                <div class="col-auto mt-4">
+                    <div class="card h-100 shadow" style="background-color: var(--sequencer-slate);">
+                        <div class="card-body">
+                            <div class="col feature-item">
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor"
+                                    class="bi bi-cart-check" viewBox="0 0 16 16" style="color: white;">
+                                    <path
+                                        d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z" />
+                                    <path
+                                        d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                </svg> -->
+                                <img src="img/Icons For Brochure Page/noun_office chair_2498848_trim.png" alt="" width="125px">
+                                <h3 class="fw-bold" style="color: var(--sequencer-blue); font-family: Calibri, sans-serif;">Try SequencerPro for Free</h3>
+                                <p class="" style="color: var(--sequencer-white); font-family: Calibri, sans-serif;">Get one free seat of SequencerPro and start
+                                    building processes today!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <!-- <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="feature-item">
+                            <i class="icon-screen-smartphone"></i>
+                            <h3 style="color: var(--sequencer-blue);">Device Mockups</h3>
+                            <p class="" style="color: var(--sequencer-white);">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="feature-item">
+                            <i class="icon-camera text-primary"></i>
+                            <h3 style="color: var(--sequencer-blue);">Flexible Use</h3>
+                            <p class="" style="color: var(--sequencer-white);">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="cta-content">
+            <div class="container">
+                <h2 style="font-family: Calibri, sans-serif;">Rethink your manufacturing processes.</h2>
+                <h2 style="font-family: Calibri, sans-serif; color: var(--sequencer-orange);">Start Sequencing today.</h2>
+                <a onclick="location.href = 'https://app.sequencerpro.com';" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </section>
+
+    <section class="contact bg-primary" id="contact"
+        style="background: linear-gradient(to left, var(--sequencer-charcoal), var(--sequencer-slate))">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class=""></h2>
+                    <h2 style="color: var(--sequencer-gold); font-family: Calibri, sans-serif;">Contact Us</h2>
+                    <!-- <p class="" style="color: white;"  style="font-family: Calibri, sans-serif;">Robert Johnson:</p> -->
+                    <p class="h4" style="color: white;"  style="font-family: Calibri, sans-serif;">sales@sequencerpro.com</p>
+                </div>
+            </div>
+            
+            <!-- <ul class="list-inline list-social">
+                <li class="list-inline-item social-twitter">
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item social-facebook">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item social-google-plus">
+                    <a href="#">
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                </li>
+            </ul> -->
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; SequencerPro 2021. All Rights Reserved.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a href="#">Privacy</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">Terms</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+    </div>
+
+    <div class="hint">
+        <p>Use a spacebar, arrow keys, or scroll wheel to navigate</p>
+    </div>
+
+    <script type="text/javascript" src="js/fullpage.js"></script>
+
+    <!-- <script type="text/javascript" src="js/new-age.min.js"></script>
+    <script type="text/javascript" src="js/new-age.js"></script> -->
+
+    <!-- Bootstrap Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script> -->
+    <script src="vendor/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
